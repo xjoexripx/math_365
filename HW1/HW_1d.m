@@ -3,6 +3,8 @@
 %inner loop is green, outer loop magenta
 clear;
 
+axis equal;
+
 function intervalPlot(i_start, i_end)
     %interval
     samples = 500;
@@ -21,8 +23,6 @@ function intervalPlot(i_start, i_end)
 
     plot(x, y, plot_string);
 end
-
-axis equal;
 
 
 
